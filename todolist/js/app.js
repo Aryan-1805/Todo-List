@@ -1,6 +1,6 @@
-import { Todo } from './models/todo.js';
+import { Todo } from './models/Todo.js';
 import { TodoService } from './services/TodoService.js';
-import { createTodoItem } from '/Users/aryanbhutyal/Desktop/Program/c++/todolist/js/utils/Dom.js';
+import { createTodoItem } from './utils/dom.js';
 
 class TodoApp {
     constructor() {
